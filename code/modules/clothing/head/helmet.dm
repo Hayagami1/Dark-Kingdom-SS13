@@ -22,6 +22,8 @@
 	desc = "A helmet painted in Peacekeeper blue. Stands out like a sore thumb."
 	icon_state = "helmet_sol"
 
+
+
 /obj/item/clothing/head/helmet/solgov/command
 	name = "command helmet"
 	desc = "A helmet with 'SOL CENTRAL GOVERNMENT' printed on the back in gold lettering."
@@ -174,3 +176,11 @@
 	name = "asset protection medical helmet"
 	desc = "An in-atmosphere helmet worn by many corporate and private asset protection forces. Has red and white highlights."
 	icon_state = "erthelmet_med"
+
+
+//medieval
+
+/obj/item/clothing/head/helmet/blackguard
+	name = "Blackguard's Helm"
+	desc = "A most sturdy helm used by those whom the king entrusts with his protection"
+	icon_state = "blackguard"

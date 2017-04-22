@@ -1,5 +1,5 @@
 /datum/job/assistant
-	title = "Assistant"
+	title = "Serf"
 	department = "Civilian"
 	department_flag = CIV
 	faction = "Station"

@@ -1,6 +1,6 @@
 //Food
 /datum/job/bartender
-	title = "Bartender"
+	title = "InnKeeper"
 	department = "Service"
 	department_flag = SRV
 	faction = "Station"
@@ -13,7 +13,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/service/bartender
 
 /datum/job/chef
-	title = "Chef"
+	title = "Cook"
 	department = "Service"
 	department_flag = SRV
 	faction = "Station"
@@ -42,7 +42,7 @@
 
 //Cargo
 /datum/job/qm
-	title = "Quartermaster"
+	title = "Chancellor"
 	department = "Supply"
 	department_flag = SUP
 	faction = "Station"
@@ -58,7 +58,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
 
 /datum/job/cargo_tech
-	title = "Cargo Technician"
+	title = "Courier"
 	department = "Supply"
 	department_flag = SUP
 	faction = "Station"
@@ -71,7 +71,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech
 
 /datum/job/mining
-	title = "Shaft Miner"
+	title = "Miner"
 	department = "Supply"
 	department_flag = SUP
 	faction = "Station"
@@ -86,7 +86,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/cargo/mining
 
 /datum/job/janitor
-	title = "Janitor"
+	title = "Cleaner"
 	department = "Service"
 	department_flag = SRV
 	faction = "Station"
@@ -101,7 +101,7 @@
 
 //More or less assistants
 /datum/job/librarian
-	title = "Librarian"
+	title = "Scholar"
 	department = "Civilian"
 	department_flag = CIV
 	faction = "Station"

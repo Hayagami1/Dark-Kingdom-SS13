@@ -42,3 +42,12 @@
 	desc = "A pair of toeless work boots designed for use in industrial settings. Modified for species whose toes have claws."
 	icon_state = "workbootstoeless"
 	species_restricted = null
+
+/obj/item/clothing/shoes/leatherboots
+	name = "leather greaves"
+	desc = "A pair of sturdy boots crafted from the hide of a cow, they should protect the wearer well."
+	icon_state = "leatherboots"
+	item_state = "leatherboots"
+	armor = list(melee = 40, bullet = 0, laser = 0, energy = 15, bomb = 20, bio = 0, rad = 20)
+	siemens_coefficient = 0.7
+	can_hold_knife = 1

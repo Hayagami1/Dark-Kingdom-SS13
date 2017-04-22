@@ -1,6 +1,6 @@
 //Due to how large this one is it gets its own file
 /datum/job/chaplain
-	title = "Chaplain"
+	title = "Man Of God"
 	department = "Civilian"
 	department_flag = CIV
 	faction = "Station"

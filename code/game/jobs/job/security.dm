@@ -1,5 +1,5 @@
 /datum/job/hos
-	title = "Head of Security"
+	title = "Hand of the King"
 	head_position = 1
 	department = "Security"
 	department_flag = SEC|COM
@@ -28,7 +28,7 @@
 		H.implant_loyalty(H)
 
 /datum/job/warden
-	title = "Warden"
+	title = "Jailer"
 	department = "Security"
 	department_flag = SEC
 	faction = "Station"
@@ -43,7 +43,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/security/warden
 
 /datum/job/detective
-	title = "Detective"
+	title = "THE MAN WHOM'ST'D'VE SOLVEDTH THE CRIMES'TH"
 	department = "Security"
 	department_flag = SEC
 	faction = "Station"
@@ -59,7 +59,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/security/detective
 
 /datum/job/officer
-	title = "Security Officer"
+	title = "Knight"
 	department = "Security"
 	department_flag = SEC
 	faction = "Station"

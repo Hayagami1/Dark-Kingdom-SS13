@@ -145,3 +145,12 @@
 	icon_state = "darkred"
 	item_state = "r_suit"
 	worn_state = "darkred"
+
+//Medieval
+
+/obj/item/clothing/under/color/surcoat
+	name = "surcoat"
+	desc = "A darkly coloured surcoat."
+	icon_state = "surcoat"
+	item_state = "surcoat"
+	worn_state = "surcoat"
