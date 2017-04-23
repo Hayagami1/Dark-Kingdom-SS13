@@ -1,5 +1,5 @@
 /datum/job/chief_engineer
-	title = "Chief Engineer"
+	title = "King's Builder"
 	head_position = 1
 	department = "Engineering"
 	department_flag = ENG|COM
@@ -27,7 +27,7 @@
 	announced = 1
 
 /datum/job/engineer
-	title = "Engineer"
+	title = "Builder"
 	department = "Engineering"
 	department_flag = ENG
 	faction = "Station"
@@ -43,7 +43,7 @@
 		"Atmospheric Technician" = /decl/hierarchy/outfit/job/engineering/atmos)
 	outfit_type = /decl/hierarchy/outfit/job/engineering/engineer
 
-/datum/job/atmos
+/datum/job/atmos //gonna be redundant soon
 	title = "Atmospheric Technician"
 	department = "Engineering"
 	department_flag = ENG

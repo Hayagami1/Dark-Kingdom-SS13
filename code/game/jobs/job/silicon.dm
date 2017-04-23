@@ -1,5 +1,5 @@
-/datum/job/ai
-	title = "AI"
+/datum/job/ai 	//phase this out soon
+	title = "Brain in a box"
 	department_flag = MSC
 	faction = "Station"
 	total_positions = 0 // Not used for AI, see is_position_available below and modules/mob/living/silicon/ai/latejoin.dm
@@ -21,7 +21,7 @@
 	return (empty_playable_ai_cores.len != 0)
 
 /datum/job/cyborg
-	title = "Cyborg"
+	title = "Automaton"
 	department_flag = MSC
 	faction = "Station"
 	total_positions = 2

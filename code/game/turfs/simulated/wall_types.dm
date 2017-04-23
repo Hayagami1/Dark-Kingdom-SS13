@@ -26,6 +26,12 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "cult"
 
+/turf/simulated/wall/cliff
+	name = "cliff face"
+	desc = "a huge mass of rock, it looks damn near impenetrable."
+	icon = 'icons/turf/walls.dmi'
+	icon_state = "rock"
+
 /turf/simulated/wall/iron/New(var/newloc)
 	..(newloc,"iron")
 /turf/simulated/wall/uranium/New(var/newloc)

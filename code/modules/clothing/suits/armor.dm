@@ -49,7 +49,23 @@
 	armor = list(melee = 75, bullet = 33, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
 	siemens_coefficient = 0.5
 
+
+/obj/item/clothing/suit/armor/blackguard
+	name = "blackguard's armour"
+	desc = "A massive suit of metal plate armour, it looks heavy and may slow you down."
+	icon_state = "blackguard"
+	//item_state = "swat_suit"
+	w_class = ITEM_SIZE_LARGE
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	armor = list(melee = 75, bullet = 33, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+	siemens_coefficient = 0.5
+
+
 /obj/item/clothing/suit/armor/riot/New()
+	..()
+	slowdown_per_slot[slot_wear_suit] = 1
+
+/obj/item/clothing/suit/armor/blackguard/New()
 	..()
 	slowdown_per_slot[slot_wear_suit] = 1
 

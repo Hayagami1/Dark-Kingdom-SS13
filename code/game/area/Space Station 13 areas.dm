@@ -56,6 +56,46 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /*-----------------------------------------------------------------------------*/
 
+
+/area/plains
+	fire = 1
+	atmos = 1
+	atmosalm = 0
+	poweralm = 0
+	level = null
+	name = "grassy plains"
+	icon = 'icons/turf/areas.dmi'
+	icon_state = "plains"
+	plane = BASE_PLANE
+	layer = BASE_AREA_LAYER
+	luminosity = 1
+	mouse_opacity = 0
+	lightswitch = 0
+
+	eject = null
+
+	debug = 0
+	requires_power = 0
+	always_unpowered = 0	//this gets overriden to 1 for space in area/New()
+
+	power_equip = 1
+	power_light = 1
+	power_environ = 1
+	used_equip = 0
+	used_light = 0
+	used_environ = 0
+
+	has_gravity = 1
+	obj/machinery/power/apc/apc = null
+	no_air = null
+//	var/list/lights				// list of all lights on this area
+	list/all_doors = list()		//Added by Strumpetplaya - Alarm Change - Contains a list of doors adjacent to this area
+	air_doors_activated = 0
+	list/ambience = list('sound/ambience/ambigen1.ogg','sound/ambience/ambigen3.ogg','sound/ambience/ambigen4.ogg','sound/ambience/ambigen5.ogg','sound/ambience/ambigen6.ogg','sound/ambience/ambigen7.ogg','sound/ambience/ambigen8.ogg','sound/ambience/ambigen9.ogg','sound/ambience/ambigen10.ogg','sound/ambience/ambigen11.ogg','sound/ambience/ambigen12.ogg','sound/ambience/ambigen14.ogg') //CHANGE ME
+	list/forced_ambience = null
+	sound_env = STANDARD_STATION
+	base_turf = /turf/simulated/floor/grass
+
 /////////
 //SPACE//
 /////////

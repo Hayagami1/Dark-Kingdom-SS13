@@ -1,0 +1,89 @@
+"a" = (/turf/simulated/wall/cliff,/area/plains)
+"b" = (/turf/simulated/floor/grass,/area/plains)
+"c" = (/turf/simulated/wall/wood,/area/plains)
+"d" = (/obj/structure/sign/goldenplaque/security,/turf/simulated/wall/wood,/area/plains)
+"e" = (/obj/structure/kitchenspike,/turf/simulated/floor/wood,/area/plains)
+"f" = (/turf/simulated/floor/wood,/area/plains)
+"g" = (/obj/structure/reagent_dispensers/beerkeg,/turf/simulated/floor/wood,/area/plains)
+"h" = (/obj/structure/bed/chair/wood/wings,/turf/simulated/floor/wood,/area/plains)
+"i" = (/obj/structure/curtain/open/bed,/obj/item/weapon/bedsheet,/obj/structure/bed,/turf/simulated/floor/wood,/area/plains)
+"j" = (/obj/structure/table/woodentable,/turf/simulated/floor/grass,/area/plains)
+"k" = (/obj/structure/table/woodentable,/turf/simulated/floor/wood,/area/plains)
+"l" = (/obj/structure/table/woodentable,/obj/random/accessory,/turf/simulated/floor/wood,/area/plains)
+"m" = (/obj/structure/bed/chair/wood/wings{icon_state = "wooden_chair_wings"; dir = 4},/turf/simulated/floor/wood,/area/plains)
+"n" = (/obj/structure/bed/chair/wood/wings{icon_state = "wooden_chair_wings"; dir = 8},/turf/simulated/floor/wood,/area/plains)
+"o" = (/obj/structure/table/woodentable,/obj/item/weapon/material/sword,/turf/simulated/floor/wood,/area/plains)
+"p" = (/obj/structure/closet/wardrobe/black,/turf/simulated/floor/wood,/area/plains)
+"q" = (/obj/structure/table/woodentable,/obj/item/weapon/storage/box/cups,/turf/simulated/floor/wood,/area/plains)
+"r" = (/obj/machinery/door/unpowered/simple/wood/saloon,/turf/simulated/floor/wood,/area/plains)
+"s" = (/obj/structure/table/gamblingtable,/obj/item/weapon/material/sword,/obj/item/clothing/head/helmet/blackguard,/obj/item/clothing/shoes/leatherboots,/obj/item/clothing/suit/armor/blackguard,/turf/simulated/floor/wood,/area/plains)
+"t" = (/obj/structure/closet/secure_closet/bar,/turf/simulated/floor/wood,/area/plains)
+"u" = (/obj/structure/table/woodentable,/obj/item/weapon/reagent_containers/food/drinks/bottle/wine,/turf/simulated/floor/wood,/area/plains)
+"v" = (/turf/simulated/floor/wood{tag = "icon-wood_broken3"; icon_state = "wood_broken3"},/area/plains)
+"w" = (/obj/structure/table/woodentable,/obj/item/weapon/reagent_containers/food/drinks/bottle/whiskey,/turf/simulated/floor/wood,/area/plains)
+"x" = (/obj/structure/table/gamblingtable,/turf/simulated/floor/wood,/area/plains)
+"y" = (/obj/structure/table/gamblingtable,/turf/simulated/floor/wood{tag = "icon-wood_broken3"; icon_state = "wood_broken3"},/area/plains)
+"z" = (/obj/structure/table/gamblingtable,/turf/simulated/floor/wood{tag = "icon-wood_broken0"; icon_state = "wood_broken0"},/area/plains)
+"A" = (/obj/structure/table/gamblingtable,/obj/item/weapon/book/manual/barman_recipes,/turf/simulated/floor/wood,/area/plains)
+"B" = (/turf/simulated/floor/wood{tag = "icon-wood_broken0"; icon_state = "wood_broken0"},/area/plains)
+"C" = (/obj/effect/floor_decal/carpet,/turf/simulated/floor/wood,/area/plains)
+"D" = (/obj/effect/floor_decal/carpet,/turf/simulated/floor/wood{tag = "icon-wood_broken0"; icon_state = "wood_broken0"},/area/plains)
+"E" = (/obj/structure/sign/double/barsign,/turf/simulated/wall/wood,/area/plains)
+"F" = (/turf/simulated/wall/sandstone,/area/plains)
+"G" = (/turf/simulated/floor/beach/sand,/area/plains)
+"H" = (/obj/structure/table/woodentable,/obj/item/weapon/material/sword,/obj/item/clothing/suit/armor/blackguard,/obj/item/clothing/head/helmet/blackguard,/obj/item/clothing/shoes/leatherboots,/turf/simulated/floor/beach/sand,/area/plains)
+"I" = (/obj/effect/floor_decal/corner/red{dir = 6},/turf/simulated/floor/beach/sand,/area/plains)
+"J" = (/obj/effect/floor_decal/corner/red{dir = 9},/turf/simulated/floor/beach/sand,/area/plains)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+abbbbbbbbcccccccccccdcccccccccccbbbbbbbbbbbbbbbbba
+abbbbbbbbceffggfhhhhhhhhffcifficbbbbbbbbbbbbbbbbba
+abbbbjbbbcefffffkkkkkkkkffclffkcbbbbbbbbbbbbbbbbba
+abbbbbbbbceffffmkffffffknfcofflcbbbbbbbbbbbbbbbbba
+abbbbbbbbceffffmkffffffknfcfffpcbbbbbbbbbbbbbbbbba
+abbbbbbbbceffffmqffffffknfcffffcbbbbbbbbbbbbbbbbba
+abbbbbbbbceffffmkffffffknfrffffcbbbbbbbbbbbbbbbbba
+abbbbbbbbcefffffffffffffffcffffcbbbbbbbbbbbbbbbbba
+abbbbbbbbcccccccccrcccrcccccccccbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccbbba
+accccccccccccccccbbbbbbbbbbbbbbbbbbbbbbbbbcsscbbba
+acfffffffftuuukkcbbbbbbbbbbbbbbbbbbbbbbbbbcfscbbba
+acffffvvfffffffwcbbbbbbbbbbbbbbbbbbbbbbbbbcffcbbba
+acfxxxyvfffffffkcbbbbbbbbbbbbbbbbbbbbbbbbbcrccbbba
+acfxxxzffffffffkcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acfxxxAfffffffffrbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acffffffffffBfffrbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acffffffffffffffcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acCDCCCCDCCCCCCCcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+acccccccccccccEccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbFbbbbbbbbbbbbbbbbbFbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbFGGGGGGGGGGGGGGGGGGGFbbbbbbbbbbbbbba
+abbbbbbbbbbbbFGGGGGGGGGGGGGGGGGGGGGFbbbbbbbbbbbbba
+abbbbbbbbbbbbFGHGGGGGGGGGGGGGGGGGHGFbbbbbbbbbbbbba
+abbbbbbbbbbbbFGHGGGIGGGGGGGGJGGGGHGFbbbbbbbbbbbbba
+abbbbbbbbbbbbFGHGGGIGGGGGGGGJGGGGHGFbbbbbbbbbbbbba
+abbbbbbbbbbbbFGHGGGIGGGGGGGGJGGGGHGFbbbbbbbbbbbbba
+abbbbbbbbbbbbFGHGGGIGGGGGGGGJGGGGHGFbbbbbbbbbbbbba
+abbbbbbbbbbbbFGHGGGGGGGGGGGGGGGGGHGFbbbbbbbbbbbbba
+abbbbbbbbbbbbFGGGGGGGGGGGGGGGGGGGGGFbbbbbbbbbbbbba
+abbbbbbbbbbbbbFGGGGGGGGGGGGGGGGGGGFbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbFFFFFFFFFFFFFFFFFFFbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbba
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

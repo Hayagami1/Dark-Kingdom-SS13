@@ -1,5 +1,5 @@
 /datum/job/cmo
-	title = "Chief Medical Officer"
+	title = "Chief Apothecary"
 	head_position = 1
 	department = "Medical"
 	department_flag = MED|COM
@@ -23,7 +23,7 @@
 	announced = 1
 
 /datum/job/doctor
-	title = "Medical Doctor"
+	title = "Apothecary"
 	department = "Medical"
 	department_flag = MED
 	faction = "Station"
@@ -44,7 +44,7 @@
 
 //Chemist is a medical job damnit	//YEAH FUCK YOU SCIENCE	-Pete	//Guys, behave -Erro
 /datum/job/chemist
-	title = "Chemist"
+	title = "Alchemist"
 	department = "Medical"
 	department_flag = MED
 	faction = "Station"
@@ -59,8 +59,8 @@
 	alt_titles = list("Pharmacist")
 	outfit_type = /decl/hierarchy/outfit/job/medical/chemist
 
-/datum/job/geneticist
-	title = "Geneticist"
+/datum/job/geneticist //gonna be redundant soon
+	title = "WITCH"
 	department = "Medical"
 	department_flag = MED
 	faction = "Station"
@@ -75,7 +75,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/medical/geneticist
 
 /datum/job/psychiatrist
-	title = "Psychiatrist"
+	title = "The man whom'std've healed your brain"
 	department = "Medical"
 	department_flag = MED
 	faction = "Station"
@@ -91,7 +91,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/medical/psychiatrist
 
 /datum/job/Paramedic
-	title = "Paramedic"
+	title = "Corpse Collector"
 	department = "Medical"
 	department_flag = MED
 	faction = "Station"

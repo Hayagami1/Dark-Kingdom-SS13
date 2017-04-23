@@ -1,5 +1,5 @@
 /datum/job/rd
-	title = "Research Director"
+	title = "Director of magical studies"
 	head_position = 1
 	department = "Science"
 	department_flag = COM|SCI
@@ -40,7 +40,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/science/scientist
 
 /datum/job/xenobiologist
-	title = "Xenobiologist"
+	title = "Biologist"
 	department = "Science"
 	department_flag = SCI
 	faction = "Station"
@@ -56,7 +56,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/science/xenobiologist
 
 /datum/job/roboticist
-	title = "Roboticist"
+	title = "Blacksmith"
 	department = "Science"
 	department_flag = SCI
 	faction = "Station"
