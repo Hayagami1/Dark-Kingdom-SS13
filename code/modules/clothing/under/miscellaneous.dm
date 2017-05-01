@@ -1,3 +1,32 @@
+/obj/item/clothing/under/medieval
+	name = "commoner's surcoat"
+	desc = "a surcoat worn by the common man, the worker, although not the serfs, they get their own rags..."
+	icon_state = "surcommon"
+	worn_state = "surcommon"
+	item_state = "surcommon"
+
+
+
+/obj/item/clothing/under/medieval/knight
+	name = "knight's surcoat"
+	desc = "a surcoat worn by the guardians of the realm, it is very thick and feels comfortable..."
+	icon_state = "surknight"
+	worn_state = "surknight"
+	item_state = "surknight"
+
+
+
+
+
+
+
+
+
+//Ye olde clothes end here
+
+
+
+
 /obj/item/clothing/under/pj/red
 	name = "red pj's"
 	desc = "Sleepwear."

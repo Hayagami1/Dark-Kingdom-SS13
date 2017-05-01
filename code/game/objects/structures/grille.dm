@@ -11,6 +11,17 @@
 	var/health = 10
 	var/destroyed = 0
 
+/obj/structure/grille/bars
+	name = "iron bars"
+	desc = "A sturdy set of iron bars, they look pretty tough."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "ironbars"
+	density = 1
+	anchored = 1
+	layer = BELOW_OBJ_LAYER
+	explosion_resistance = 1
+	health = 1000 //if you hit them enough they'll die, but they're hella strong
+	destroyed = 0
 
 /obj/structure/grille/ex_act(severity)
 	qdel(src)
@@ -31,18 +42,18 @@
 	user.do_attack_animation(src)
 
 	var/damage_dealt = 1
-	var/attack_message = "kicks"
+	var/attack_message = "thwacks"
 	if(istype(user,/mob/living/carbon/human))
 		var/mob/living/carbon/human/H = user
 		if(H.species.can_shred(H))
-			attack_message = "mangles"
+			attack_message = "rends"
 			damage_dealt = 5
 
 	if(shock(user, 70))
 		return
 
 	if(HULK in user.mutations)
-		damage_dealt += 5
+		damage_dealt += 100 //HULK SMASH BARS
 	else
 		damage_dealt += 1
 
