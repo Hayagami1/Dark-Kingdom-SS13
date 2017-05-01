@@ -2,7 +2,7 @@
 	name = OUTFIT_JOB_NAME("Captain")
 	head = /obj/item/clothing/head/caphat
 	glasses = /obj/item/clothing/glasses/sunglasses
-	uniform = /obj/item/clothing/under/rank/captain
+	uniform = /obj/item/clothing/under/medieval
 	l_ear = /obj/item/device/radio/headset/heads/captain
 	shoes = /obj/item/clothing/shoes/brown
 	backpack = /obj/item/weapon/storage/backpack/captain
@@ -27,7 +27,7 @@
 
 /decl/hierarchy/outfit/job/hop
 	name = OUTFIT_JOB_NAME("Head of Personnel")
-	uniform = /obj/item/clothing/under/rank/head_of_personnel
+	uniform = /obj/item/clothing/under/medieval
 	l_ear = /obj/item/device/radio/headset/heads/hop
 	shoes = /obj/item/clothing/shoes/brown
 	id_type = /obj/item/weapon/card/id/silver

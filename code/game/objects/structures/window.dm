@@ -20,6 +20,9 @@
 	var/glasstype = null // Set this in subtypes. Null is assumed strange or otherwise impossible to dismantle, such as for shuttle glass.
 	var/silicate = 0 // number of units of silicate
 
+
+
+
 /obj/structure/window/examine(mob/user)
 	. = ..(user)
 
@@ -144,7 +147,7 @@
 		return 1
 	if(get_dir(O.loc, target) == dir)
 		return 0
-	return 1 
+	return 1
 
 
 /obj/structure/window/hitby(AM as mob|obj)
@@ -512,6 +515,17 @@
 	maxhealth = 40
 	reinf = 1
 	basestate = "w"
+	dir = 5
+
+/obj/structure/window/town
+	desc = "It looks quite thin, but is reinforced with iron, will take a good few hits to penetrate."
+	icon_state = "yeoldewindow"
+	basestate = "yeoldewindow"
+	glasstype = /obj/item/stack/material/glass
+	maximal_heat = T0C + 100
+	damage_per_fire_tick = 2.0
+	maxhealth = 20
+	reinf = 1
 	dir = 5
 
 /obj/structure/window/reinforced/polarized

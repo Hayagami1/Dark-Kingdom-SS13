@@ -220,6 +220,8 @@
 	icon_state = "wood"
 	color = "#824B28"
 
+
+
 /obj/machinery/door/unpowered/simple/wood/New(var/newloc,var/material_name,var/complexity)
 	..(newloc, "wood", complexity)
 
@@ -238,3 +240,75 @@
 
 /obj/machinery/door/unpowered/simple/cult/New(var/newloc,var/material_name,var/complexity)
 	..(newloc, "cult", complexity)
+
+
+//Ultra simple doors, no locks n stuff because doors are stupid, yeah they're stupid
+
+/obj/machinery/door/unpowered/megasimple
+	autoclose = 0
+	icon = 'icons/obj/doors/material_doors.dmi'
+	icon_state = "metal"
+	opacity = 0
+	var/icon_base
+
+
+/obj/machinery/door/unpowered/megasimple/bars
+	autoclose = 1
+	icon = 'icons/obj/doors/material_doors.dmi'
+	icon_state = "bars"
+	opacity = 0
+	icon_base = "bars"
+
+/obj/machinery/door/unpowered/megasimple/portcullis
+	autoclose = 1
+	icon = 'icons/obj/doors/material_doors.dmi'
+	icon_state = "portcullis"
+	opacity = 0
+	icon_base = "portcullis"
+
+/obj/machinery/door/unpowered/megasimple/portcullis/side
+	autoclose = 1
+	icon = 'icons/obj/doors/material_doors.dmi'
+	icon_state = "gate"
+	opacity = 0
+	icon_base = "gate"
+
+
+
+
+/obj/machinery/door/unpowered/megasimple/requiresID()
+	return 0
+
+/obj/machinery/door/unpowered/megasimple/bullet_act(var/obj/item/projectile/Proj)
+	var/damage = Proj.get_structure_damage()
+	if(damage)
+		//cap projectile damage so that there's still a minimum number of hits required to break the door
+		take_damage(min(damage, 100))
+
+/obj/machinery/door/unpowered/megasimple/update_icon()
+	if(density)
+		icon_state = "[icon_base]"
+	else
+		icon_state = "[icon_base]open"
+	return
+
+/obj/machinery/door/unpowered/megasimple/do_animate(animation)
+	switch(animation)
+		if("opening")
+			flick("[icon_base]opening", src)
+		if("closing")
+			flick("[icon_base]closing", src)
+	return
+
+/obj/machinery/door/unpowered/megasimple/close(var/forced = 0)
+	if(!can_close(forced))
+		return
+	..()
+
+/obj/machinery/door/unpowered/megasimple/open(var/forced = 0)
+	if(!can_open(forced))
+		return
+	..()
+
+
+

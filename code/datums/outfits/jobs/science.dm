@@ -11,7 +11,7 @@
 /decl/hierarchy/outfit/job/science/rd
 	name = OUTFIT_JOB_NAME("Research Director")
 	l_ear = /obj/item/device/radio/headset/heads/rd
-	uniform = /obj/item/clothing/under/rank/research_director
+	uniform = /obj/item/clothing/under/medieval			//edit me!
 	shoes = /obj/item/clothing/shoes/brown
 	l_hand = /obj/item/weapon/clipboard
 	id_type = /obj/item/weapon/card/id/science/head
@@ -19,19 +19,19 @@
 
 /decl/hierarchy/outfit/job/science/scientist
 	name = OUTFIT_JOB_NAME("Scientist")
-	uniform = /obj/item/clothing/under/rank/scientist
+	uniform = /obj/item/clothing/under/medieval
 	id_type = /obj/item/weapon/card/id/science
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science
 
 /decl/hierarchy/outfit/job/science/xenobiologist
 	name = OUTFIT_JOB_NAME("Xenobiologist")
-	uniform = /obj/item/clothing/under/rank/scientist
+	uniform = /obj/item/clothing/under/medieval
 	id_type = /obj/item/weapon/card/id/science/xenobiologist
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/science
 
 /decl/hierarchy/outfit/job/science/roboticist
 	name = OUTFIT_JOB_NAME("Roboticist")
-	uniform = /obj/item/clothing/under/rank/scientist
+	uniform = /obj/item/clothing/under/medieval
 	shoes = /obj/item/clothing/shoes/black
 	belt = /obj/item/weapon/storage/belt/utility/full
 	id_type = /obj/item/weapon/card/id/science/roboticist

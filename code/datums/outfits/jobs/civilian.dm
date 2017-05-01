@@ -7,13 +7,13 @@
 
 /decl/hierarchy/outfit/job/service/bartender
 	name = OUTFIT_JOB_NAME("Bartender")
-	uniform = /obj/item/clothing/under/rank/bartender
+	uniform = /obj/item/clothing/under/medieval
 	id_type = /obj/item/weapon/card/id/civilian/bartender
 	pda_type = /obj/item/device/pda/bar
 
 /decl/hierarchy/outfit/job/service/chef
 	name = OUTFIT_JOB_NAME("Chef")
-	uniform = /obj/item/clothing/under/rank/chef
+	uniform = /obj/item/clothing/under/medieval
 	suit = /obj/item/clothing/suit/chef
 	head = /obj/item/clothing/head/chefhat
 	id_type = /obj/item/weapon/card/id/civilian/chef
@@ -21,7 +21,7 @@
 
 /decl/hierarchy/outfit/job/service/gardener
 	name = OUTFIT_JOB_NAME("Gardener")
-	uniform = /obj/item/clothing/under/rank/hydroponics
+	uniform = /obj/item/clothing/under/medieval
 	suit = /obj/item/clothing/suit/apron
 	gloves = /obj/item/clothing/gloves/thick/botany
 	r_pocket = /obj/item/device/analyzer/plant_analyzer
@@ -33,13 +33,13 @@
 
 /decl/hierarchy/outfit/job/service/janitor
 	name = OUTFIT_JOB_NAME("Janitor")
-	uniform = /obj/item/clothing/under/rank/janitor
+	uniform = /obj/item/clothing/under/medieval
 	id_type = /obj/item/weapon/card/id/civilian/janitor
 	pda_type = /obj/item/device/pda/janitor
 
 /decl/hierarchy/outfit/job/librarian
 	name = OUTFIT_JOB_NAME("Librarian")
-	uniform = /obj/item/clothing/under/suit_jacket/red
+	uniform = /obj/item/clothing/under/medieval
 	l_hand = /obj/item/weapon/barcodescanner
 	id_type = /obj/item/weapon/card/id/civilian/librarian
 	pda_type = /obj/item/device/pda/librarian
@@ -47,7 +47,7 @@
 /decl/hierarchy/outfit/job/internal_affairs_agent
 	name = OUTFIT_JOB_NAME("Internal affairs agent")
 	l_ear = /obj/item/device/radio/headset/ia
-	uniform = /obj/item/clothing/under/rank/internalaffairs
+	uniform = /obj/item/clothing/under/medieval
 	suit = /obj/item/clothing/suit/storage/toggle/internalaffairs
 	shoes = /obj/item/clothing/shoes/brown
 	glasses = /obj/item/clothing/glasses/sunglasses/big
@@ -57,7 +57,7 @@
 
 /decl/hierarchy/outfit/job/chaplain
 	name = OUTFIT_JOB_NAME("Chaplain")
-	uniform = /obj/item/clothing/under/rank/chaplain
+	uniform = /obj/item/clothing/under/medieval
 	l_hand = /obj/item/weapon/storage/bible
 	id_type = /obj/item/weapon/card/id/civilian/chaplain
 	pda_type = /obj/item/device/pda/chaplain
