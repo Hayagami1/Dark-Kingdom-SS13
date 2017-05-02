@@ -39,4 +39,25 @@
 	icon = 'icons/turf/perspectivewalls.dmi'
 	icon_state = "6"
 
+
+/turf/simulated/wallz/cobble/corner3
+	name = "cobblestone wall"
+	desc = "A large chunk of rocks that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "8"
+
+/turf/simulated/wallz/cobble/corner4
+	name = "cobblestone wall"
+	desc = "A large chunk of rocks that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "9"
 	//added wallz so they dont get smoothwalled
+
+/turf/simulated/wallz/window
+	name = "ornate window"
+	desc = "A sturdy looking window reinforced with iron."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "10"
+	opacity = 0
+	density = 1
+	blocks_air = 1
