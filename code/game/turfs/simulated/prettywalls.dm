@@ -61,3 +61,75 @@
 	opacity = 0
 	density = 1
 	blocks_air = 1
+
+
+//Wood walls for townerino
+
+
+/turf/simulated/wallz/wood
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "1w"
+
+
+/turf/simulated/wallz/wood/end
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "2w"
+
+/turf/simulated/wallz/wood/end/opposite
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "4w"
+
+/turf/simulated/wallz/wood/middle
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "3w"
+
+
+/turf/simulated/wallz/wood/corner
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "5w"
+
+/turf/simulated/wallz/wood/corner2
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "11w"
+
+/turf/simulated/wallz/wood/t
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "6w"
+
+/turf/simulated/wallz/wood/corner/up
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "7w"
+
+/turf/simulated/wallz/wood/corner/upright
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "8w"
+
+/turf/simulated/wallz/wood/t/left
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "9w"
+
+/turf/simulated/wallz/wood/t/right
+	name = "wooden wall"
+	desc = "A large chunk of dead trees that seperates places, what else?."
+	icon = 'icons/turf/perspectivewalls.dmi'
+	icon_state = "10w"
