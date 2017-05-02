@@ -78,7 +78,7 @@
 "bz" = (/obj/structure/cult/forge,/turf/simulated/floor/wood,/area/centcom{icon_state = "town"; name = "\improper Town"})
 "bA" = (/obj/structure/table/woodentable,/obj/item/clothing/suit/armor/blackguard,/turf/simulated/floor/wood,/area/centcom{icon_state = "town"; name = "\improper Town"})
 "bB" = (/obj/structure/waterbasin,/turf/simulated/floor/wood,/area/centcom{icon_state = "town"; name = "\improper Town"})
-"bC" = (/obj/structure/forgetable,/obj/item/weapon/material/sword,/turf/simulated/floor/wood,/area/centcom{icon_state = "town"; name = "\improper Town"})
+"bC" = (/obj/structure/forgetable,/obj/item/weapon/material/sword,/obj/item/stack/material/steel/fifty,/turf/simulated/floor/wood,/area/centcom{icon_state = "town"; name = "\improper Town"})
 "bD" = (/obj/structure/closet/statue,/turf/simulated/floor/beach/sand/desert,/area/centcom{icon_state = "town"; name = "\improper Town"})
 "bE" = (/obj/structure/bed/chair/wood/wings,/turf/simulated/floor/wood,/area/centcom{icon_state = "town"; name = "\improper Town"})
 "bF" = (/obj/structure/reagent_dispensers/beerkeg,/turf/simulated/floor/wood,/area/centcom{icon_state = "town"; name = "\improper Town"})
