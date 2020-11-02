@@ -509,7 +509,7 @@ Turf and target are seperate in case you want to teleport some distance from a t
 /proc/between(var/low, var/middle, var/high)
 	return max(min(middle, high), low)
 
-proc/arctan(x)
+proc/_arctan(x)
 	var/y=arcsin(x/sqrt(1+x*x))
 	return y
 
