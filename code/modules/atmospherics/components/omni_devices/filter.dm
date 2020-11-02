@@ -5,7 +5,7 @@
 	name = "omni gas filter"
 	icon_state = "map_filter"
 
-	var/list/filters = new()
+	var/list/_filters = new()
 	var/datum/omni_port/input
 	var/datum/omni_port/output
 
